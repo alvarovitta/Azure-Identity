@@ -33,9 +33,9 @@ Use the following processes in sequence to design and implement an Azure Identit
 
 For more information on licensing, see:  [Licensing Azure for the enterprise](https://azure.microsoft.com/en-us/pricing/enterprise-agreement/)
 
-For more information on how to create a subscription, see: [Enrollment and Subscription](/Enrollment-and-Subscription)
+For more information on how to create a subscription, see: [Enrollment and Subscription](https://github.com/alvarovitta/Enrollment-and-Subscription)
 
-https://github.com/alvarovitta/Enrollment-and-Subscription
+
 
 ## Next steps
 
