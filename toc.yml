@@ -15,8 +15,8 @@
         href: /alvarovitta/Azure-Identity/blob/master/1.4-Using-the-Sync-and-Hash-Hybrid-Identity-Pattern.md
       - name: Using the Sync and ADFS Hybrid Identity Pattern
         href: /alvarovitta/Azure-Identity/blob/master/1.5-Using-the-Sync-and-ADFS-Hybrid-Identity-Pattern.md
-      - name: Using the Sync and Pass-Thru Authentication Hybrid Identity Pattern
-        href: /alvarovitta/Azure-Identity/blob/master/1.6-Using-the-Sync-and-Pass-thru-Authentication-Hybrid-Identity-Pattern.md
+      - name: Using the Sync and Pass-Through Authentication Hybrid Identity Pattern
+        href: /alvarovitta/Azure-Identity/blob/master/1.6-Using-the-Sync-and-Pass-Through-Authentication-Hybrid-Identity-Pattern.md
       - name: Selecting your Azure AD Authentication Implementation Pattern
         href: /alvarovitta/Azure-Identity/blob/master/1.7-Selecting-your-Azure-AD-Authentication-Implementation-Pattern.md
   - name: Implementing Azure AD Hybrid Identity Patterns
@@ -34,11 +34,17 @@
       - name: Implementing AD FS Server 2016 for Azure AD
         href: /alvarovitta/Azure-Identity/blob/master/2.2-Implementing-ADFS-Server-2016-for-Azure-AD.md
       - name: Implementing Pass-Through Authentication
+        href: /alvarovitta/Azure-Identity/blob/master/2.3-Implementing-Pass-Through-Authentication.md
+      - name: Implementing Password Hash Synchronization
+        href: /alvarovitta/Azure-Identity/blob/master/2.4-Implementing-Password-Hash-Synchronization.md  
+      - name: Azure AD Connect Disaster Recovery
+        href: /alvarovitta/Azure-Identity/blob/master/2.5-Azure-AD-Connect-Disaster-Recovery.md 
+      - name: Running Azure AD Connect in Staging Mode
+        href: /alvarovitta/Azure-Identity/blob/master/2.6-Running-Azure-AD-Connect-in-Staging-Mode.md
       
       
       
-        href:/alvarovitta/Azure-Identity/blob/master/2.3-Implementing-Pass-Through-Authentication.md
-        items:
+      items:
               - name: Using the Shared ExpressRoute Pattern
                 href: /alvarovitta/Azure-Identity/blob/master/2.3.1-Using-the-Shared-ExpressRoute-Pattern.md
               - name: Using the Shared ExpressRoute with Hub and Spoke Pattern
