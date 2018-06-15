@@ -41,69 +41,50 @@
         href: /alvarovitta/Azure-Identity/blob/master/2.5-Azure-AD-Connect-Disaster-Recovery.md 
       - name: Running Azure AD Connect in Staging Mode
         href: /alvarovitta/Azure-Identity/blob/master/2.6-Running-Azure-AD-Connect-in-Staging-Mode.md
-      
-      
-      
-      items:
-              - name: Using the Shared ExpressRoute Pattern
-                href: /alvarovitta/Azure-Identity/blob/master/2.3.1-Using-the-Shared-ExpressRoute-Pattern.md
-              - name: Using the Shared ExpressRoute with Hub and Spoke Pattern
-                href: /alvarovitta/Azure-Identity/blob/master/2.3.2-Using-the-Shared-ExpressRoute-with-Hub-and-Spoke-Pattern.md
-              - name: Using the Logical Isolation of ExpressRoute Pattern
-                href: /alvarovitta/Azure-Identity/blob/master/2.3.3-Using-the-Logical-Isolation-of-ExpressRoute-Pattern.md
-              - name: Using the Logical Isolation of ExpressRoute with Hub and Spoke Pattern
-                href: /alvarovitta/Azure-Identity/blob/master/2.3.4-Using-the-Logical-Isolation-of-ExpressRoute-with-Hub-and-Spoke-Pattern.md
-  - name: Planning and Designing Native Azure Networking Patterns
-    href: /alvarovitta/Azure-Identity/blob/master/3.0-Planning-and-Designing-Native-Azure-Identity-Patterns.md
-    items:
-      - name: Selecting the Number of Subscriptions and VNets
-        href: /alvarovitta/Azure-Identity/blob/master/3.1-Selecting-the-Number-of-Subscriptions-and-VNets.md
-      - name: Selecting the Number of Subnets and Network Security Groups 
-        href: /alvarovitta/Azure-Identity/blob/master/3.2-Selecting-the-Number-of-Subnets-and-Network-Security-Groups.md
-      - name: Selecting a Native Azure VNet Pattern
-        href: /alvarovitta/Azure-Identity/blob/master/3.3-Selecting-a-Native-Azure-VNet-Pattern.md
-        items:
-          - name: Using the VNet-to-VNet Network Pattern
-            href: /alvarovitta/Azure-Identity/blob/master/3.3.1-Using-the-VNet-to-VNet-Network-Pattern.md
-          - name: Using the Hub and Spoke VNet Pattern
-             href: /alvarovitta/Azure-Identity/blob/master/3.3.2-Using-the-Hub-and-Spoke-VNet-Pattern.md
-          - name: Using the Mesh Network VNet Pattern
-             href: /alvarovitta/Azure-Identity/blob/master/3.3.3-Using-the-Mesh-Network-VNet-Pattern.md
-      - name: Selecting an Azure Network DMZ Pattern
-        href: /alvarovitta/Azure-Identity/blob/master/3.4-Selecting-an-Azure-Network-DMZ-Pattern.md
-        items:
-           - name: Deploying a DMZ Between Azure and On-Premises
-             href: /alvarovitta/Azure-Identity/blob/master/3.4.1-Deploying-a-DMZ-between-Azure-and-On-Premises.md
-          - name: Deploying a DMZ Between Azure and Internet
-             href: /alvarovitta/Azure-Identity/blob/master/3.4.2-Deploying-a-DMZ-between-Azure-and-Internet.md
-     
-     - name: Selecting the Cross-Tenant VNet Connection Pattern
-        href: /alvarovitta/Azure-Identity/blob/master/3.5-Selecting-the-Cross-Tenant-VNet-Connection-Pattern.md
-  - name: Securing your Network Dataflow
-    href: /alvarovitta/Azure-Identity/blob/master/4.0-Securing-your-Network-Dataflow.md
-        items:
-           - name: Securing your Virtual Network Traffic
-             href: /alvarovitta/Azure-Identity/blob/master/4.1-Securing-your-Virtual-Network-Traffic.md
-           - name: Building a Containment Strategy
-             href: /alvarovitta/Azure-Identity/blob/master/4.2-Building-a-Containment-Strategy.md
-           - name: Designing Network Security Defense
-             href: /alvarovitta/Azure-Identity/blob/master/4.3-Designing-Network-Security-Defense.md
-           - name: Deploying a Perimeter Network in Azure
-             href: /alvarovitta/Azure-Identity/blob/master/4.4-Designing-a-Perimeter-Network-in-Azure.md
-  - name: Operationalizing Azure Networking
-    href: /alvarovitta/Azure-Identity/blob/master/5.0-Operationalizing-Azure-Identity.md
+  - name: Operationalizing the Hybrid AD Environment
+    href: /alvarovitta/Azure-Identity/blob/master/3.0-Operationalizing-the-Hybrid-AD-Environment.md
        items:
-          - name: Monitoring your Network
-            href:  /alvarovitta/Azure-Identity/blob/master/5.1-Monitoring-your-Network.md
-            items:
-              - name: Monitoring Network Traffic Flow
-                href: /alvarovitta/Azure-Identity/blob/master/5.1.1-Monitoring-Network-Traffic-Flow.md
-              - name: Monitoring Network Health and Performance
-                href: /alvarovitta/Azure-Identity/blob/master/5.1.2-Monitoring-Network-Health-and-Performance.md
-              - name: Monitoring Network Infrastructure Operations
-                href: /alvarovitta/Azure-Identity/blob/master/5.1.3-Monitoring-Network-Infrastructure-Operations.md
-              - name: Top 5 Alerts for Azure Network Operation
-                href: /alvarovitta/Azure-Identity/blob/master/5.1.4-Top-5-Alerts-for-Azure-Network-Operations.md
-         - name: Governing your Network Resources in Azure
-           href:  /alvarovitta/Azure-Identity/blob/master/5.2-Governing-your-Network-Resources-in-Azure.md
-
+      - name: Configuring Azure AD Connect Health Monitoring
+        href: /alvarovitta/Azure-Identity/blob/master/3.1-Configuring-Azure-AD-Connect-Health-Monitoring.md
+      - name: Identifying Azure AD Security Requirements
+        href: /alvarovitta/Azure-Identity/blob/master/3.2-Identifying-Azure-AD-Security-Requirements.md
+        items:
+              - name: Securing Azure AD Privileged Identities 
+                href: /alvarovitta/Azure-Identity/blob/master/3.2.1-Securing-Azure-AD-Privileged-Identities.md
+              - name: Implementing Multi-Factor Authentication
+                href: /alvarovitta/Azure-Identity/blob/master/3.2.2-Implementing-Multi-Factor-Authentication.md
+              - name: Implementing Conditional Access Policies
+                href: /alvarovitta/Azure-Identity/blob/master/3.2.3-Implementing-Conditional-Access-Policies.md
+              - name: Enabling Top 10 Security Alerts to Monitor Azure AD
+                href: /alvarovitta/Azure-Identity/blob/master/3.2.4-Enabling-Top-10-Security-Alerts-to-Monitor-Azure-AD.md
+      - name: Azure AD Global Administrator Role Members
+        href: /alvarovitta/Azure-Identity/blob/master/3.3-Azure-AD-Global-Administrator-Role-Members.md
+        items:
+              - name: Governing Azure AD Global Administrator Roles
+                href: /alvarovitta/Azure-Identity/blob/master/3.3.1-Governing-Azure-AD-Global-Administrator-Roles.md
+              - name: Planning Azure AD Roles
+                href: /alvarovitta/Azure-Identity/blob/master/3.3.2-Planning-Azure-AD-Roles.md
+              - name: Top 5 Azure AD RBAC Roles
+                href: /alvarovitta/Azure-Identity/blob/master/3.3.3-Top-5-Azure-AD-RBAC-Roles.md
+              - name: Taking Over an Unmanaged Directory
+                href: /alvarovitta/Azure-Identity/blob/master/3.3.4-Taking-Over-an-Unmanaged-Directory.md
+      - name: Implementing OMS Log Analytics and Queries
+        href: /alvarovitta/Azure-Identity/blob/master/3.4-Implementing-OMS-Log-Analytics-and-Queries.md
+        items:
+              - name: Governing Azure AD Global Administrator Roles
+                href: /alvarovitta/Azure-Identity/blob/master/3.3.1-Governing-Azure-AD-Global-Administrator-Roles.md
+              - name: Configuring OMS for Log Analytics
+                href: /alvarovitta/Azure-Identity/blob/master/3.4.2-Configuring-OMS-for-Log-Analytics.md
+              - name: Top 10 Queries for Azure Active Directory
+                href: /alvarovitta/Azure-Identity/blob/master/3.4.3-Top-10-Queries-for-Azure-Active-Directory.md
+ - name: Migrating Directory Services Aware Applications to Azure
+   href: /alvarovitta/Azure-Identity/blob/master/4.0-Migrating-Directory-Services-Aware-Applications-to-Azure.md
+      items:
+             - name: Configuring Azure AD Domain Services in Azure Tenant
+               href: /alvarovitta/Azure-Identity/blob/master/4.1-Configuring-Azure-AD-Domain-Services-in-Azure-Tenant.md       
+             - name: Deploying Site-to-Site VPN to Enable Connectivity to On-Premise AD DS
+               href: /alvarovitta/Azure-Identity/blob/master/4.2-Deploying-Site-to-Site-VPN-to-Enable-Connectivity-to-On-Premise-ADDS.md       
+             - name: Extending On-Premise AD DS to Azure
+               href: /alvarovitta/Azure-Identity/blob/master/4.3-Extending-On-Premise-AD-Domain-Services-(AD-DS)-to-Azure.md       
+             - name: Building Standalone Domain Controllers in Azure
+               href: /alvarovitta/Azure-Identity/blob/master/4.4-Building-Standalone-Domain-Controllers-in-Azure.md
